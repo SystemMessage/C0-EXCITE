@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CO-EXCITE</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    /* CSS 스타일 */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    
+    main {
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      margin: 0;
+      text-align: center; 
+      flex-grow: 1;
+      padding: 15px;
+    }
+
+    h3 {
+    }
+
+    nav {
+      max-height: 10; /* 초기에는 최대 높이 0으로 설정 */
+      overflow: hidden;
+      background-color: #E8D8D6;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #000;
+      text-decoration: none;
+      margin-right: 80px;
+    }
+
+    main {
+      margin: 20px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .header-text {
+      text-align: center;
+    }
+    .product-table {
+      width: 100%;
+      table-layout: fixed;
+    }
+
+    .search-rank,
+    .product-rank {
+      width: 50%;
+      padding: 10px;
+      box-sizing: border-box;
+      border-left: 1px solid #000; /* 왼쪽 경계선 추가 */
+    }
+
+    .search-rank h2,
+    .product-rank h2 {
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .search-rank ul,
+    .product-rank ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .search-rank ul li,
+    .product-rank ul li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .search-rank img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .product-rank img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .recommended-products {
+      margin-top: 20px;
+      text-align: center;
+      border-top: 1px solid #000; /* 상단 경계선 추가 */
+    }
+
+    .recommended-products ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .recommended-products li {
+      flex: 0 0 33.33%; /* 세 개의 열로 나누기 */
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .recommended-products img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      margin-right: 60px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h2><img src="제목 없음.png" alt="공백 이미지"></h2>
+    <h1><img src="coexcite.png" alt="타이틀 이미지"></h1>
+    <img src="logo.png" alt="로고 이미지" style="margin-left: auto;">
+  </header>
+
+  <nav>
+    <a href="https://community1.example.com">▶ 기업 소개</a>
+    <a href="https://community2.example.com">▶ 휴,타래</a>
+    <a href="https://community3.example.com">▶ 쇼핑</a>
+  </nav>
+
+  <main>
+    <div class="search-rank">
+      <h2>휴, 타래 검색어 순위</h2>
+      <ul>
+        <li><img src="1위.png" alt="1위"></li>
+        <li><img src="2위.png" alt="2위"></li>
+        <li><img src="3위.png" alt="3위"></li>
+        <li></li>
+      
+      </ul>
+    </div>
+    <div class="product-rank">
+      <h2>인기 상품 순위</h2>
+      <ul>
+        <li>
+          <span>1. 코익사이트 2 고어텍스 방수 트레킹화</span>
+          <img src="rhdj.png" alt="상품 1">
+        </li>
+        <li>
+          <span>2. 코익사이트 남녀공용 기능성 경량 바람막이 자켓 5</span>
+          <img src="dht.png" alt="상품 2">
+        </li>
+        <li>
+          <span>3. 코익사이트 슬림 폼롤러</span>
+	  <img src="vhafhffj.png" alt="상품 3">
+        </li>
+
+      </ul>
+    </div>
+    <div class="recommended-products">
+      <h2>이번달 추천 상품</h2>
+      <ul>
+        <li>
+          <img src="Qkf.png" alt="추천 1">
+        </li>
+        <li>
+          <img src="gudrhkd.png" alt="추천 2">
+        </li>
+        <li>
+          <img src="rjawjd.png" alt="추천 3">
+        </li>
+
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2023 CO-EXCITE. All rights reserved.
+  </footer>
+</body>
+</html>
